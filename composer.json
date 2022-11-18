@@ -1,5 +1,5 @@
 {
-    "name": "igwt0/nami-md-post-meta",
+    "name": "kennyr87/nami-md-post-meta",
     "description": "NAMI MD Post Meta",
     "type": "wordpress-plugin",
     "require": {
@@ -11,7 +11,7 @@
     "license": "GPL-2.0",
     "authors": [
         {
-            "name": "Kenny Rogers",
+            "name": "Ken Rogers",
             "homepage": "https://gitlab.com/igwt0"
         }
     ],
