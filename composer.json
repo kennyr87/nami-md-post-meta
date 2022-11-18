@@ -1,0 +1,22 @@
+{
+    "name": "igwt0/nami-md-post-meta",
+    "description": "NAMI MD Post Meta",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^2.3"
+    },
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Kenny Rogers",
+            "homepage": "https://gitlab.com/igwt0"
+        }
+    ],
+  "scripts": {
+    "lint": ["phpcs"],
+    "lint:install": "phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs"
+    }
+}
