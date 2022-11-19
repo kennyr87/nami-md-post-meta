@@ -95,7 +95,7 @@ class NAMI_MD_Post_Meta_Admin {
 	/**
 	 * Register the JavaScript for the admin area.
 	 *
-	 * @since    1.0.0
+	 * @since    0.1.0
 	 */
 	public function enqueue_scripts() {
 
@@ -119,7 +119,7 @@ class NAMI_MD_Post_Meta_Admin {
 		add_management_page(
 			'Update WPDM Post Meta',
 			'NAMI MD Post Meta',
-			'install_plugins',
+			'activate_plugins',
 			$this->admin_slug,
 			array( $this, 'admin_menu_display' )
 		);
